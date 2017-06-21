@@ -10,15 +10,15 @@
       "required": true
     },
     "SLACK_API_TOKEN": {
-      "description": "xoxp-197197512486-200154820196-199551098673-20db8748cb831e4f5c62e3b3a6ea92ce",
+      "description": "",
       "required": true
     },
     "GOOGLE_CAPTCHA_SECRET": {
-      "description": "6LeVcxcTAAAAAObZwg8KlFYnAPnZTWjOH8iRjmfn",
+      "description": "",
       "required": true
     },
     "GOOGLE_CAPTCHA_SITEKEY": {
-      "description": "6LeVcxcTAAAAAMz4moKQAzyA8M_DvfzSOwDjik-F",
+      "description": "",
       "required": true
     },
     "SLACK_COC": {
