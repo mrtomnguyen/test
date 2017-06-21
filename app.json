@@ -1,0 +1,33 @@
+{
+  "name": "Slackin",
+  "description": "Let people invite themselves to your Slack",
+  "logo": "https://i.imgur.com/odDO1Fx.png",
+  "repository": "https://github.com/rauchg/slackin",
+  "keywords": ["node", "slack"],
+  "env": {
+    "SLACK_SUBDOMAIN": {
+      "description": "emrifylabs.slack.com)",
+      "required": true
+    },
+    "SLACK_API_TOKEN": {
+      "description": "xoxp-197197512486-200154820196-199551098673-20db8748cb831e4f5c62e3b3a6ea92ce",
+      "required": true
+    },
+    "GOOGLE_CAPTCHA_SECRET": {
+      "description": "6LeVcxcTAAAAAObZwg8KlFYnAPnZTWjOH8iRjmfn",
+      "required": true
+    },
+    "GOOGLE_CAPTCHA_SITEKEY": {
+      "description": "6LeVcxcTAAAAAMz4moKQAzyA8M_DvfzSOwDjik-F",
+      "required": true
+    },
+    "SLACK_COC": {
+      "description": "A URL to a Code of Conduct people must agree on before joining.",
+      "required": false
+    },
+    "SLACK_CHANNELS": {
+      "description": "Comma-separated list of single guest channels to invite them to (leave blank for a normal, all-channel invite). In order to make this work, you have to have a paid account. You'll only be able to invite as many people as your number of paying members times 5.",
+      "required": false
+    }
+  }
+}
